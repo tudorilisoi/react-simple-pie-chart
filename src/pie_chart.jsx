@@ -79,6 +79,13 @@ export default class PieChart extends React.Component {
         <g transform={`rotate(-90 ${center} ${center})`}>
           {renderPaths(this.props.slices)}
         </g>
+		  <circle
+			  r={radius/1.66}
+			  cx={center}
+			  cy={center}
+			  fill={'white'}
+			  key={'inner'}
+		  />
       </svg>
     );
   }
