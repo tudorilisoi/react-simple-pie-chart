@@ -80,7 +80,7 @@ export default class PieChart extends React.Component {
           {renderPaths(this.props.slices)}
         </g>
 		  <circle
-			  r={radius/1.66}
+			  r={radius/1.3}
 			  cx={center}
 			  cy={center}
 			  fill={'white'}
