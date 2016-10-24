@@ -61,7 +61,7 @@ function renderPaths(slices) {
     lastX = nextX;
     lastY = nextY;
 
-    return <path d={d} fill={color} key={index} />;
+    return <path d={d} fill={color} stroke="white" strokeWidth={4} key={index} />;
   });
 }
 
