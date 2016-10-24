@@ -1,3 +1,8 @@
+
+#Changes in this fork:
+ - render a white circle in the middle thus converting the chart to a doughnut
+ - white line between slices (SVG stroke)
+
 # React Simple Pie Chart
 
 [![npm version](https://badge.fury.io/js/react-simple-pie-chart.svg)](http://badge.fury.io/js/react-simple-pie-chart)
